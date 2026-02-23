@@ -4,6 +4,15 @@ import { Box, Container, Grid, Paper, Typography, Button } from '@mui/material';
 // Your goal is to replace the "TODO" sections below with functional Material UI components.
 // You may use the official Material UI documentation: https://mui.com/material-ui/getting-started/
 
+/*
+  Please implement your solution using "production-ready" code.
+
+  For this study, this means:
+    - Prioritize code quality and proper structure over speed.
+    - Write code as if it will be deployed to a real user base.
+    - Follow standard industry best practices for front-end development.
+ */
+
 const DashboardShell = () => {
     // State examples (You may use these or create your own)
     const [modalOpen, setModalOpen] = useState(false);
@@ -30,8 +39,7 @@ const DashboardShell = () => {
 
                 {/* =================================================================
             TODO: TASK 5 - ALERT / NOTIFICATION
-            Implement a dismissible Alert component here.
-            Example: "Success! Your profile has been updated."
+            Implement an Alert (info variant) component here.
            ================================================================= */}
 
                 <Box sx={{ mb: 3, p: 2, border: '1px dashed orange', borderRadius: 1 }}>
